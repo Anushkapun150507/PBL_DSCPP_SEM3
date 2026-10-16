@@ -1,1 +1,123 @@
-<!-- Frontend entry point -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="UNIGO is a campus guide website that makes college life easier.">
+<title>UNIGO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- App header: only shown on the home and feature pages -->
+<header class="topbar" id="topbar" hidden>
+  <span class="logo">UNIGO</span>
+  <nav class="top-actions" aria-label="Main">
+    <button type="button" class="btn-soft" id="homeBtn">Home</button>
+    <button type="button" class="btn-soft" id="logoutBtn">Log out</button>
+  </nav>
+</header>
+
+<!-- PAGE 1: landing -->
+<main class="view landing" id="view-landing" hidden>
+  <h1 class="wordmark">UNIGO</h1>
+  <p class="tagline">Your campus, made simple.</p>
+  <button type="button" class="btn" id="startBtn">Get started</button>
+</main>
+
+<!-- PAGE 2: ask for the name -->
+<main class="view center-view" id="view-name" hidden>
+  <form class="panel narrow" id="nameForm" novalidate>
+    <h2>Welcome to UNIGO</h2>
+    <p class="muted">What should we call you?</p>
+    <label for="nameInput" class="sr">Your name</label>
+    <input id="nameInput" type="text" maxlength="30" placeholder="Your name" autocomplete="given-name" aria-describedby="nameError">
+    <p class="field-error" id="nameError" role="alert"></p>
+    <button type="submit" class="btn">Continue</button>
+  </form>
+</main>
+
+<!-- PAGE 3: home with the four feature blocks + about -->
+<main class="view page" id="view-home" hidden>
+  <div class="container">
+    <h2 class="greeting">Hi, <span id="userName"></span></h2>
+    <p class="muted">What would you like to do today?</p>
+
+    <div class="blocks">
+      <div class="block b-sky off" aria-disabled="true">
+        <span class="tag">Coming soon</span>
+        <h3>Campus Map</h3>
+        <p>Find classrooms, labs, washrooms, offices and bus stops.</p>
+      </div>
+      <button type="button" class="block b-lav" id="openBus">
+        <span class="tag tag-live">Available</span>
+        <h3>Bus Finder</h3>
+        <p>See where your bus departs from and when.</p>
+      </button>
+      <div class="block b-peach off" aria-disabled="true">
+        <span class="tag">Coming soon</span>
+        <h3>Lost &amp; Found</h3>
+        <p>Report a lost item or post something you found.</p>
+      </div>
+      <div class="block b-mint off" aria-disabled="true">
+        <span class="tag">Coming soon</span>
+        <h3>Reviews &amp; Tips</h3>
+        <p>Read and share tips about places on campus.</p>
+      </div>
+    </div>
+
+    <section class="about" id="about" aria-labelledby="aboutTitle">
+      <h2 id="aboutTitle">About UNIGO</h2>
+      <p>UNIGO is a campus guide made by students, for students. College life is full of small problems that quietly eat up time: finding a classroom or lab you have never visited, working out which campus point your bus leaves from, or tracking down something you lost.</p>
+      <p>Instead of asking around or scrolling through group chats, UNIGO brings these answers together in one simple place. Bus Finder is available now. A campus map, Lost &amp; Found, and student reviews and tips are on the way.</p>
+      <p>Our aim is to make campus life easier for everyone, especially new students finding their way for the first time.</p>
+    </section>
+  </div>
+</main>
+
+<!-- PAGE 4: Bus Finder -->
+<main class="view page" id="view-bus" hidden>
+  <div class="container narrow-wide">
+    <h2 class="greeting">Bus Finder</h2>
+    <p class="muted">Hi <span class="user-inline"></span>, enter where you are going to see where your bus leaves from.</p>
+
+    <form class="search" id="searchForm" role="search" autocomplete="off" novalidate>
+      <label for="destination" class="sr">Destination</label>
+      <div class="search-box" id="searchBox">
+        <input id="destination" type="text" maxlength="60" placeholder="Where are you going? e.g. ISBT, Clock Tower"
+               role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list" aria-describedby="fieldHelp">
+        <button type="button" class="clear" id="clearBtn" aria-label="Clear search" hidden>&times;</button>
+        <button type="submit" class="btn">Search</button>
+        <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+      </div>
+      <p class="field-help" id="fieldHelp">Enter a place name. A partial name such as &ldquo;chowk&rdquo; works too.</p>
+    </form>
+
+    <div class="results-area" aria-live="polite">
+      <div id="state-idle" class="state"><p>Your bus details will appear here.</p></div>
+      <div id="state-loading" class="state" hidden><div class="spinner" aria-hidden="true"></div><p>Searching buses&hellip;</p></div>
+      <div id="state-error" class="state error" hidden>
+        <h3 id="errorTitle"></h3>
+        <p id="errorText"></p>
+        <div id="errorTips" class="tips" hidden></div>
+        <button type="button" class="btn-soft" id="errorReset">Try another destination</button>
+      </div>
+      <div id="state-results" hidden>
+        <div class="results-head">
+          <div><h3 id="resultsTitle"></h3><p id="resultsSub" class="muted"></p></div>
+          <button type="button" class="btn-soft" id="resetBtn">New search</button>
+        </div>
+        <div id="resultsGrid" class="results-grid"></div>
+      </div>
+    </div>
+
+    <p class="fine">Timings come from the college bus schedule dataset used in this project. UNIGO does not show live bus locations.</p>
+  </div>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
