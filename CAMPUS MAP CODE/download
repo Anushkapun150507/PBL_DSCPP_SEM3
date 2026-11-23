@@ -1,0 +1,8 @@
+# built programs
+*.exe
+*.o
+*.tmp
+# students' data (created when the website is used) -- never upload
+data/reviews.json
+data/lostfound/*
+!data/lostfound/config.example.json
