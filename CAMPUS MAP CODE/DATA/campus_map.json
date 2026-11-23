@@ -1,0 +1,1884 @@
+{
+ "meta": {
+  "title": "Graphic Era University — Campus Map",
+  "width": 1600,
+  "height": 900,
+  "note": "Schematic layout traced from the UNIGO reference campus map. Not to scale; positions are approximate. The CSIT side across Bell Road is reached only through Gate No. 1 or the subway.",
+  "geo": null,
+  "geoHelp": "To enable 'Use my location', set geo to {\"points\": [{\"lat\":..,\"lon\":..,\"x\":..,\"y\":..}, {...}]} using two map points whose GPS position you have measured (for example Gate No. 1 and Gate No. 2)."
+ },
+ "nodes": {
+  "B0": [
+   20,
+   185
+  ],
+  "W0": [
+   225,
+   185
+  ],
+  "B2": [
+   460,
+   185
+  ],
+  "B3": [
+   645,
+   185
+  ],
+  "BD": [
+   805,
+   185
+  ],
+  "B4": [
+   975,
+   185
+  ],
+  "BU": [
+   1090,
+   185
+  ],
+  "BZ": [
+   1405,
+   185
+  ],
+  "BE": [
+   1530,
+   185
+  ],
+  "N2a": [
+   460,
+   150
+  ],
+  "NT": [
+   460,
+   30
+  ],
+  "SN": [
+   270,
+   165
+  ],
+  "PC": [
+   270,
+   140
+  ],
+  "PN": [
+   270,
+   105
+  ],
+  "PP": [
+   270,
+   72
+  ],
+  "PT": [
+   270,
+   30
+  ],
+  "SM": [
+   270,
+   260
+  ],
+  "SS": [
+   270,
+   335
+  ],
+  "W1": [
+   225,
+   243
+  ],
+  "W2": [
+   225,
+   323
+  ],
+  "W3": [
+   225,
+   403
+  ],
+  "W4": [
+   225,
+   465
+  ],
+  "W5": [
+   225,
+   515
+  ],
+  "H0": [
+   225,
+   575
+  ],
+  "WR": [
+   300,
+   465
+  ],
+  "R0": [
+   620,
+   335
+  ],
+  "R1": [
+   608,
+   381
+  ],
+  "R2": [
+   573,
+   420
+  ],
+  "R3": [
+   521,
+   446
+  ],
+  "R4": [
+   460,
+   455
+  ],
+  "R5": [
+   399,
+   446
+  ],
+  "R6": [
+   347,
+   420
+  ],
+  "R7": [
+   312,
+   381
+  ],
+  "R8": [
+   300,
+   335
+  ],
+  "HW": [
+   100,
+   575
+  ],
+  "Hv": [
+   360,
+   575
+  ],
+  "HF": [
+   380,
+   575
+  ],
+  "X1": [
+   445,
+   490
+  ],
+  "Kx": [
+   445,
+   542
+  ],
+  "X2": [
+   445,
+   575
+  ],
+  "X3": [
+   445,
+   700
+  ],
+  "X4": [
+   445,
+   860
+  ],
+  "L1": [
+   380,
+   700
+  ],
+  "L2": [
+   520,
+   700
+  ],
+  "L3": [
+   590,
+   700
+  ],
+  "GRa": [
+   645,
+   225
+  ],
+  "GRb": [
+   645,
+   278
+  ],
+  "GR1": [
+   645,
+   335
+  ],
+  "GR2": [
+   645,
+   500
+  ],
+  "GRf": [
+   645,
+   560
+  ],
+  "GRm": [
+   645,
+   610
+  ],
+  "GRl": [
+   645,
+   700
+  ],
+  "GRc": [
+   645,
+   778
+  ],
+  "GR5": [
+   645,
+   860
+  ],
+  "Kg": [
+   645,
+   542
+  ],
+  "FN": [
+   705,
+   528
+  ],
+  "FE": [
+   737,
+   560
+  ],
+  "FS": [
+   705,
+   592
+  ],
+  "FW": [
+   673,
+   560
+  ],
+  "AF": [
+   705,
+   500
+  ],
+  "AA": [
+   848,
+   500
+  ],
+  "D1": [
+   805,
+   394
+  ],
+  "D2": [
+   805,
+   458
+  ],
+  "D3": [
+   805,
+   500
+  ],
+  "E0": [
+   770,
+   585
+  ],
+  "Ep": [
+   848,
+   585
+  ],
+  "E1": [
+   925,
+   585
+  ],
+  "Em": [
+   978,
+   585
+  ],
+  "G2a": [
+   1030,
+   585
+  ],
+  "Ec": [
+   1100,
+   585
+  ],
+  "Et": [
+   1210,
+   585
+  ],
+  "G2b": [
+   1280,
+   585
+  ],
+  "Eo": [
+   1342,
+   585
+  ],
+  "Eb": [
+   1462,
+   585
+  ],
+  "G2E": [
+   1530,
+   585
+  ],
+  "V1": [
+   770,
+   693
+  ],
+  "V2": [
+   770,
+   860
+  ],
+  "M2": [
+   1030,
+   765
+  ],
+  "S3": [
+   925,
+   860
+  ],
+  "S4": [
+   1030,
+   860
+  ],
+  "KT": [
+   925,
+   300
+  ],
+  "Tp": [
+   1012,
+   300
+  ],
+  "U1": [
+   1090,
+   300
+  ],
+  "Ug": [
+   1090,
+   240
+  ],
+  "KQ": [
+   925,
+   440
+  ],
+  "Qq": [
+   990,
+   440
+  ],
+  "Qk": [
+   1118,
+   440
+  ],
+  "Qs": [
+   1230,
+   440
+  ],
+  "Q2": [
+   1280,
+   440
+  ],
+  "Z1": [
+   1405,
+   440
+  ],
+  "Rp": [
+   1280,
+   515
+  ],
+  "Z2": [
+   1405,
+   295
+  ],
+  "Bf": [
+   975,
+   165
+  ],
+  "EastEnd": [
+   1530,
+   222
+  ]
+ },
+ "roads": [
+  {
+   "name": "Bell Road",
+   "kind": "road",
+   "path": [
+    "B0",
+    "W0",
+    "B2",
+    "B3",
+    "BD",
+    "B4",
+    "BU",
+    "BZ",
+    "BE"
+   ]
+  },
+  {
+   "name": "CSIT Road",
+   "kind": "road",
+   "path": [
+    "B2",
+    "N2a",
+    "NT"
+   ]
+  },
+  {
+   "name": "CSIT Walkway",
+   "kind": "path",
+   "path": [
+    "NT",
+    "PT",
+    "PP",
+    "PN",
+    "PC",
+    "SN"
+   ]
+  },
+  {
+   "name": "Subway (Underpass)",
+   "kind": "subway",
+   "path": [
+    "SN",
+    "SM",
+    "SS"
+   ]
+  },
+  {
+   "name": "Subway Path",
+   "kind": "path",
+   "path": [
+    "W2",
+    "SS",
+    "R8"
+   ]
+  },
+  {
+   "name": "Hostel Road",
+   "kind": "road",
+   "path": [
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5",
+    "H0"
+   ]
+  },
+  {
+   "name": "Hostel Road",
+   "kind": "road",
+   "path": [
+    "W4",
+    "WR",
+    "R6"
+   ]
+  },
+  {
+   "name": "Sports Ground Ring Road",
+   "kind": "road",
+   "path": [
+    "R0",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "R0",
+    "GR1"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "HW",
+    "H0",
+    "Hv",
+    "HF",
+    "X2"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "R4",
+    "X1",
+    "Kx",
+    "X2",
+    "X3",
+    "X4"
+   ]
+  },
+  {
+   "name": "Flag Area Walkway",
+   "kind": "path",
+   "path": [
+    "Kx",
+    "Kg"
+   ]
+  },
+  {
+   "name": "Civil Engg. Lane",
+   "kind": "road",
+   "path": [
+    "L1",
+    "X3",
+    "L2",
+    "L3",
+    "GRl"
+   ]
+  },
+  {
+   "name": "Gate No. 1 Road",
+   "kind": "road",
+   "path": [
+    "B3",
+    "GRa",
+    "GRb",
+    "GR1",
+    "GR2",
+    "Kg",
+    "GRf",
+    "GRm",
+    "GRl",
+    "GRc",
+    "GR5"
+   ]
+  },
+  {
+   "name": "Fountain Roundabout",
+   "kind": "road",
+   "path": [
+    "FN",
+    "FE",
+    "FS",
+    "FW",
+    "FN"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "FW",
+    "GRf"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "GR2",
+    "AF",
+    "AA",
+    "D3"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "AF",
+    "FN"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "D1",
+    "D2",
+    "D3"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "FE",
+    "E0",
+    "Ep",
+    "E1"
+   ]
+  },
+  {
+   "name": "Gate No. 2 Road",
+   "kind": "road",
+   "path": [
+    "E1",
+    "Em",
+    "G2a",
+    "Ec",
+    "Et",
+    "G2b",
+    "Eo",
+    "Eb",
+    "G2E"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "E0",
+    "V1",
+    "V2"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "X4",
+    "GR5",
+    "V2",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "KT",
+    "KQ",
+    "E1",
+    "S3"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "G2a",
+    "M2",
+    "S4"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "KT",
+    "Tp",
+    "U1"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "Ug",
+    "U1"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "KQ",
+    "Qq",
+    "Qk",
+    "Qs",
+    "Q2",
+    "Z1"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "Q2",
+    "Rp",
+    "G2b"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "Z2",
+    "Z1"
+   ]
+  },
+  {
+   "name": "Gate No. 2 Access Road",
+   "kind": "road",
+   "path": [
+    "G2E",
+    "EastEnd"
+   ]
+  },
+  {
+   "name": "Campus Road",
+   "kind": "road",
+   "path": [
+    "B4",
+    "Bf"
+   ]
+  }
+ ],
+ "places": [
+  {
+   "id": "gate-1",
+   "name": "Gate No. 1",
+   "type": "gate",
+   "rect": [
+    560,
+    196,
+    70,
+    18
+   ],
+   "door": [
+    637,
+    205
+   ],
+   "link": "B3",
+   "aliases": [
+    "Gate 1",
+    "Main Gate"
+   ],
+   "keywords": [
+    "entrance",
+    "exit"
+   ]
+  },
+  {
+   "id": "gate-2",
+   "name": "Gate No. 2",
+   "type": "gate",
+   "rect": [
+    1545,
+    560,
+    45,
+    50
+   ],
+   "door": [
+    1538,
+    585
+   ],
+   "link": "G2E",
+   "aliases": [
+    "Gate 2"
+   ],
+   "keywords": [
+    "entrance",
+    "exit"
+   ]
+  },
+  {
+   "id": "csit-gate",
+   "name": "CSIT Gate",
+   "type": "gate",
+   "rect": [
+    475,
+    135,
+    50,
+    32
+   ],
+   "door": [
+    467,
+    150
+   ],
+   "link": "N2a",
+   "keywords": [
+    "entrance",
+    "csit entrance"
+   ]
+  },
+  {
+   "id": "gate-2-bus-stop",
+   "name": "Gate No. 2 Bus Stop",
+   "type": "transport",
+   "rect": [
+    1415,
+    605,
+    95,
+    95
+   ],
+   "door": [
+    1462,
+    597
+   ],
+   "link": "Eb",
+   "aliases": [
+    "Bus Stop",
+    "Gate 2 Bus Stop"
+   ],
+   "keywords": [
+    "bus",
+    "college bus",
+    "transport"
+   ]
+  },
+  {
+   "id": "open-parking",
+   "name": "Open Parking",
+   "type": "parking",
+   "rect": [
+    1300,
+    462,
+    215,
+    105
+   ],
+   "door": [
+    1290,
+    515
+   ],
+   "link": "Rp",
+   "aliases": [
+    "Parking"
+   ],
+   "keywords": [
+    "parking",
+    "car",
+    "bike"
+   ]
+  },
+  {
+   "id": "new-csit-block",
+   "name": "New CSIT Block",
+   "type": "academic",
+   "rect": [
+    95,
+    55,
+    150,
+    105
+   ],
+   "door": [
+    258,
+    105
+   ],
+   "link": "PN",
+   "aliases": [
+    "New CSIT"
+   ],
+   "keywords": [
+    "computer science",
+    "it",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "paramedical-block",
+   "name": "Paramedical Block",
+   "type": "academic",
+   "rect": [
+    295,
+    42,
+    140,
+    55
+   ],
+   "door": [
+    283,
+    72
+   ],
+   "link": "PP",
+   "aliases": [
+    "Paramedical"
+   ],
+   "keywords": [
+    "medical",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "csit-block",
+   "name": "CSIT Block",
+   "type": "academic",
+   "rect": [
+    295,
+    112,
+    140,
+    55
+   ],
+   "door": [
+    283,
+    140
+   ],
+   "link": "PC",
+   "aliases": [
+    "CSIT"
+   ],
+   "keywords": [
+    "computer science",
+    "it",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "convention-centre",
+   "name": "Registration Counter / Silver Jubilee Convention Centre",
+   "type": "admin",
+   "rect": [
+    850,
+    60,
+    250,
+    95
+   ],
+   "door": [
+    975,
+    160
+   ],
+   "link": "Bf",
+   "aliases": [
+    "Registration Counter",
+    "Silver Jubilee Convention Centre",
+    "Convention Centre"
+   ],
+   "keywords": [
+    "admission",
+    "registration",
+    "events",
+    "auditorium"
+   ]
+  },
+  {
+   "id": "lakshmi-bai-hostel",
+   "name": "Lakshmi Bai Girls Hostel",
+   "type": "hostel",
+   "rect": [
+    30,
+    212,
+    175,
+    62
+   ],
+   "door": [
+    213,
+    243
+   ],
+   "link": "W1",
+   "aliases": [
+    "Lakshmi Bai Hostel"
+   ],
+   "keywords": [
+    "girls hostel",
+    "residence"
+   ]
+  },
+  {
+   "id": "boys-hostel-1",
+   "name": "Boys Hostel 1",
+   "type": "hostel",
+   "rect": [
+    30,
+    292,
+    175,
+    62
+   ],
+   "door": [
+    213,
+    323
+   ],
+   "link": "W2",
+   "aliases": [
+    "Boys Hostel"
+   ],
+   "keywords": [
+    "boys hostel",
+    "residence"
+   ]
+  },
+  {
+   "id": "boys-hostel-2",
+   "name": "Boys Hostel 2",
+   "type": "hostel",
+   "rect": [
+    30,
+    372,
+    175,
+    62
+   ],
+   "door": [
+    213,
+    403
+   ],
+   "link": "W3",
+   "aliases": [
+    "Boys Hostel"
+   ],
+   "keywords": [
+    "boys hostel",
+    "residence"
+   ]
+  },
+  {
+   "id": "priyadarshini-hostel",
+   "name": "Priyadarshini Hostel",
+   "type": "hostel",
+   "rect": [
+    950,
+    212,
+    125,
+    60
+   ],
+   "door": [
+    1012,
+    282
+   ],
+   "link": "Tp",
+   "keywords": [
+    "girls hostel",
+    "residence"
+   ]
+  },
+  {
+   "id": "girls-hostel-2",
+   "name": "Girls Hostel 2",
+   "type": "hostel",
+   "rect": [
+    1105,
+    212,
+    100,
+    58
+   ],
+   "door": [
+    1097,
+    240
+   ],
+   "link": "Ug",
+   "keywords": [
+    "girls hostel",
+    "residence"
+   ]
+  },
+  {
+   "id": "guest-house",
+   "name": "Guest House",
+   "type": "residence",
+   "rect": [
+    1425,
+    250,
+    90,
+    75
+   ],
+   "door": [
+    1417,
+    295
+   ],
+   "link": "Z2",
+   "keywords": [
+    "visitors",
+    "guest"
+   ]
+  },
+  {
+   "id": "presidents-house",
+   "name": "President's House",
+   "type": "residence",
+   "rect": [
+    668,
+    258,
+    112,
+    40
+   ],
+   "door": [
+    657,
+    278
+   ],
+   "link": "GRb",
+   "aliases": [
+    "Presidents House"
+   ],
+   "keywords": [
+    "president"
+   ]
+  },
+  {
+   "id": "sports-ground",
+   "name": "Sports Ground",
+   "type": "sports",
+   "rect": [
+    345,
+    268,
+    230,
+    134
+   ],
+   "door": [
+    460,
+    432
+   ],
+   "link": "R4",
+   "aliases": [
+    "Playground",
+    "Football Ground"
+   ],
+   "keywords": [
+    "sports",
+    "ground",
+    "athletics"
+   ],
+   "shape": "ellipse"
+  },
+  {
+   "id": "open-ground",
+   "name": "Ground Area",
+   "type": "park",
+   "rect": [
+    820,
+    340,
+    90,
+    145
+   ],
+   "door": [
+    813,
+    458
+   ],
+   "link": "D2",
+   "aliases": [
+    "Open Ground"
+   ],
+   "keywords": [
+    "ground",
+    "open area"
+   ]
+  },
+  {
+   "id": "park-1",
+   "name": "Park 1",
+   "type": "park",
+   "rect": [
+    668,
+    368,
+    112,
+    52
+   ],
+   "door": [
+    793,
+    394
+   ],
+   "link": "D1",
+   "aliases": [
+    "Sitting Area 1"
+   ],
+   "keywords": [
+    "park",
+    "sitting area",
+    "garden"
+   ]
+  },
+  {
+   "id": "park-2",
+   "name": "Park 2",
+   "type": "park",
+   "rect": [
+    668,
+    432,
+    112,
+    52
+   ],
+   "door": [
+    793,
+    458
+   ],
+   "link": "D2",
+   "aliases": [
+    "Sitting Area 2"
+   ],
+   "keywords": [
+    "park",
+    "sitting area",
+    "garden"
+   ]
+  },
+  {
+   "id": "sitting-area",
+   "name": "Sitting Area",
+   "type": "park",
+   "rect": [
+    1195,
+    470,
+    70,
+    60
+   ],
+   "door": [
+    1230,
+    462
+   ],
+   "link": "Qs",
+   "keywords": [
+    "sitting",
+    "garden"
+   ]
+  },
+  {
+   "id": "open-sitting-park",
+   "name": "Open Sitting / Park Area",
+   "type": "park",
+   "rect": [
+    1290,
+    605,
+    105,
+    70
+   ],
+   "door": [
+    1342,
+    597
+   ],
+   "link": "Eo",
+   "aliases": [
+    "Open Sitting Area",
+    "Park Area"
+   ],
+   "keywords": [
+    "park",
+    "sitting"
+   ]
+  },
+  {
+   "id": "indoor-badminton-court",
+   "name": "Indoor Badminton Court",
+   "type": "sports",
+   "rect": [
+    330,
+    718,
+    100,
+    70
+   ],
+   "door": [
+    380,
+    710
+   ],
+   "link": "L1",
+   "aliases": [
+    "Badminton Court"
+   ],
+   "keywords": [
+    "badminton",
+    "sports",
+    "indoor"
+   ]
+  },
+  {
+   "id": "basketball-court",
+   "name": "Basketball Court",
+   "type": "sports",
+   "rect": [
+    662,
+    735,
+    90,
+    85
+   ],
+   "door": [
+    655,
+    778
+   ],
+   "link": "GRc",
+   "aliases": [
+    "Courts",
+    "Basketball Courts"
+   ],
+   "keywords": [
+    "basketball",
+    "sports"
+   ]
+  },
+  {
+   "id": "main-admin-block",
+   "name": "Main Admin Block",
+   "type": "admin",
+   "rect": [
+    470,
+    555,
+    150,
+    110
+   ],
+   "door": [
+    633,
+    610
+   ],
+   "link": "GRm",
+   "aliases": [
+    "B.Tech Block",
+    "Main Block",
+    "Admin Block",
+    "Main Admin / B.Tech Block",
+    "Main B.Tech Admin Block"
+   ],
+   "keywords": [
+    "administration",
+    "office",
+    "btech",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "library",
+   "name": "Santosh Anand Library",
+   "type": "library",
+   "rect": [
+    660,
+    632,
+    95,
+    80
+   ],
+   "door": [
+    705,
+    624
+   ],
+   "link": "FS",
+   "aliases": [
+    "Library",
+    "Library Block",
+    "Shantosh Anand Library Block",
+    "Central Library"
+   ],
+   "keywords": [
+    "books",
+    "reading",
+    "study"
+   ]
+  },
+  {
+   "id": "civil-engineering-block",
+   "name": "Civil Engineering Block",
+   "type": "academic",
+   "rect": [
+    460,
+    718,
+    100,
+    75
+   ],
+   "door": [
+    510,
+    710
+   ],
+   "link": "L2",
+   "aliases": [
+    "Civil Block",
+    "Civil Engg Block"
+   ],
+   "keywords": [
+    "civil",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "washroom",
+   "name": "Washroom",
+   "type": "facility",
+   "rect": [
+    575,
+    718,
+    55,
+    55
+   ],
+   "door": [
+    602,
+    710
+   ],
+   "link": "L3",
+   "aliases": [
+    "Washrooms",
+    "Toilet",
+    "Restroom"
+   ],
+   "keywords": [
+    "toilet",
+    "washroom"
+   ]
+  },
+  {
+   "id": "flag-area",
+   "name": "Flag Area",
+   "type": "landmark",
+   "rect": [
+    490,
+    478,
+    120,
+    52
+   ],
+   "door": [
+    622,
+    504
+   ],
+   "link": "GR2",
+   "keywords": [
+    "flag",
+    "assembly"
+   ]
+  },
+  {
+   "id": "fountain",
+   "name": "Fountain",
+   "type": "landmark",
+   "rect": [
+    345,
+    495,
+    70,
+    60
+   ],
+   "door": [
+    418,
+    542
+   ],
+   "link": "Kx",
+   "keywords": [
+    "fountain",
+    "meeting point"
+   ],
+   "shape": "ellipse"
+  },
+  {
+   "id": "vidyarthi-block",
+   "name": "Vidyarthi Block",
+   "type": "food",
+   "rect": [
+    300,
+    595,
+    120,
+    60
+   ],
+   "door": [
+    360,
+    588
+   ],
+   "link": "Hv",
+   "keywords": [
+    "food",
+    "canteen",
+    "students"
+   ]
+  },
+  {
+   "id": "happiness-hut",
+   "name": "Happiness Hut Café & Gym",
+   "type": "food",
+   "rect": [
+    175,
+    595,
+    110,
+    55
+   ],
+   "door": [
+    230,
+    588
+   ],
+   "link": "H0",
+   "aliases": [
+    "Happiness Hut",
+    "Gym"
+   ],
+   "keywords": [
+    "cafe",
+    "food",
+    "gym",
+    "fitness"
+   ]
+  },
+  {
+   "id": "ravi-canteen",
+   "name": "Ravi Canteen",
+   "type": "food",
+   "rect": [
+    60,
+    488,
+    150,
+    55
+   ],
+   "door": [
+    217,
+    515
+   ],
+   "link": "W5",
+   "aliases": [
+    "Canteen"
+   ],
+   "keywords": [
+    "food",
+    "canteen",
+    "lunch"
+   ]
+  },
+  {
+   "id": "dispensary",
+   "name": "Dispensary",
+   "type": "facility",
+   "rect": [
+    668,
+    205,
+    112,
+    40
+   ],
+   "door": [
+    657,
+    225
+   ],
+   "link": "GRa",
+   "aliases": [
+    "Medical Room",
+    "Health Centre"
+   ],
+   "keywords": [
+    "doctor",
+    "medical",
+    "first aid",
+    "health"
+   ]
+  },
+  {
+   "id": "tuck-shop-1",
+   "name": "Tuck Shop No. 1",
+   "type": "food",
+   "rect": [
+    668,
+    315,
+    112,
+    40
+   ],
+   "door": [
+    657,
+    335
+   ],
+   "link": "GR1",
+   "aliases": [
+    "Tuck Shop 1"
+   ],
+   "keywords": [
+    "snacks",
+    "food",
+    "shop"
+   ]
+  },
+  {
+   "id": "aryabhatta-lab",
+   "name": "Aryabhatta Computer Lab",
+   "type": "lab",
+   "rect": [
+    785,
+    512,
+    125,
+    48
+   ],
+   "door": [
+    848,
+    507
+   ],
+   "link": "AA",
+   "aliases": [
+    "Aryabhatta Lab"
+   ],
+   "keywords": [
+    "computer lab",
+    "lab"
+   ]
+  },
+  {
+   "id": "param-lab",
+   "name": "Param Computer Lab",
+   "type": "lab",
+   "rect": [
+    785,
+    600,
+    125,
+    50
+   ],
+   "door": [
+    848,
+    593
+   ],
+   "link": "Ep",
+   "aliases": [
+    "Param Lab"
+   ],
+   "keywords": [
+    "computer lab",
+    "lab"
+   ]
+  },
+  {
+   "id": "biotech-block",
+   "name": "GEU-Biotech Block",
+   "type": "academic",
+   "rect": [
+    785,
+    668,
+    125,
+    50
+   ],
+   "door": [
+    778,
+    693
+   ],
+   "link": "V1",
+   "aliases": [
+    "Biotech Block",
+    "Biotechnology Block",
+    "GEU Biotech Block"
+   ],
+   "keywords": [
+    "biotechnology",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "mba-block",
+   "name": "MBA Block",
+   "type": "academic",
+   "rect": [
+    940,
+    600,
+    75,
+    55
+   ],
+   "door": [
+    978,
+    593
+   ],
+   "link": "Em",
+   "aliases": [
+    "MBA"
+   ],
+   "keywords": [
+    "management",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "chanakya-block",
+   "name": "Chanakya Block (Hotel Management)",
+   "type": "academic",
+   "rect": [
+    1045,
+    600,
+    110,
+    75
+   ],
+   "door": [
+    1100,
+    593
+   ],
+   "link": "Ec",
+   "aliases": [
+    "Chanakya Block",
+    "Charakya Block",
+    "Hotel Management Block"
+   ],
+   "keywords": [
+    "hotel management",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "tuck-shop-2",
+   "name": "Tuck Shop No. 2",
+   "type": "food",
+   "rect": [
+    1170,
+    600,
+    80,
+    45
+   ],
+   "door": [
+    1210,
+    593
+   ],
+   "link": "Et",
+   "aliases": [
+    "Tuck Shop 2"
+   ],
+   "keywords": [
+    "snacks",
+    "food",
+    "shop"
+   ]
+  },
+  {
+   "id": "school-of-design",
+   "name": "School of Design / Graphic Era School of Management",
+   "type": "academic",
+   "rect": [
+    1045,
+    720,
+    215,
+    90
+   ],
+   "door": [
+    1037,
+    765
+   ],
+   "link": "M2",
+   "aliases": [
+    "School of Design",
+    "Graphic Era School of Management",
+    "School of Management"
+   ],
+   "keywords": [
+    "design",
+    "management",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "quick-bite-cafe",
+   "name": "Quick Bite Café",
+   "type": "food",
+   "rect": [
+    945,
+    465,
+    90,
+    62
+   ],
+   "door": [
+    990,
+    457
+   ],
+   "link": "Qq",
+   "aliases": [
+    "Quick Bite Cafe",
+    "Quick Bite"
+   ],
+   "keywords": [
+    "cafe",
+    "food",
+    "snacks"
+   ]
+  },
+  {
+   "id": "kp-nautiyal-block",
+   "name": "KP Nautiyal Block / School of Law",
+   "type": "academic",
+   "rect": [
+    1055,
+    460,
+    125,
+    95
+   ],
+   "door": [
+    1118,
+    452
+   ],
+   "link": "Qk",
+   "aliases": [
+    "School of Law",
+    "KP Nautiyal Block",
+    "Law Block"
+   ],
+   "keywords": [
+    "law",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "mechanical-workshop",
+   "name": "Mechanical Workshop",
+   "type": "lab",
+   "rect": [
+    1105,
+    285,
+    110,
+    55
+   ],
+   "door": [
+    1097,
+    300
+   ],
+   "link": "U1",
+   "aliases": [
+    "Workshop"
+   ],
+   "keywords": [
+    "workshop",
+    "mechanical",
+    "lab"
+   ]
+  },
+  {
+   "id": "mechanical-aerospace-block",
+   "name": "Mechanical & Aerospace Engg. Block",
+   "type": "academic",
+   "rect": [
+    1235,
+    262,
+    150,
+    82
+   ],
+   "door": [
+    1393,
+    295
+   ],
+   "link": "Z2",
+   "aliases": [
+    "Mechanical Block",
+    "Aerospace Block",
+    "Mechanical and Aerospace Engineering Block"
+   ],
+   "keywords": [
+    "mechanical",
+    "aerospace",
+    "classrooms"
+   ]
+  },
+  {
+   "id": "subway",
+   "name": "Subway (Underpass)",
+   "type": "landmark",
+   "marker": [
+    270,
+    260
+   ],
+   "link": "SM",
+   "aliases": [
+    "Underpass",
+    "Subway"
+   ],
+   "keywords": [
+    "underpass",
+    "crossing",
+    "bell road crossing"
+   ]
+  }
+ ],
+ "decor": [
+  {
+   "kind": "lawn",
+   "rect": [
+    940,
+    350,
+    325,
+    75
+   ]
+  },
+  {
+   "kind": "lawn",
+   "rect": [
+    1300,
+    345,
+    90,
+    80
+   ]
+  },
+  {
+   "kind": "fountain",
+   "circle": [
+    705,
+    560,
+    14
+   ]
+  },
+  {
+   "kind": "wall",
+   "points": [
+    [
+     8,
+     201
+    ],
+    [
+     555,
+     201
+    ]
+   ]
+  },
+  {
+   "kind": "wall",
+   "points": [
+    [
+     690,
+     201
+    ],
+    [
+     1545,
+     201
+    ]
+   ]
+  }
+ ]
+}

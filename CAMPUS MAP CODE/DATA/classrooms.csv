@@ -1,0 +1,47 @@
+﻿id,building,floor,room_or_facility,category,purpose,search_keywords,data_status
+UNI001,CSIT Block,Basement,Certificate Enquiry,Administrative Service,Certificate-related requests,"certificate, certificate enquiry, documents",User-provided
+UNI002,CSIT Block,Basement,Fee Enquiry,Administrative Service,Fee-related student queries,"fee, fees, payment issue",User-provided
+UNI003,CSIT Block,Basement,Portal Helpdesk,IT Support,Student portal-related issues,"portal, login, student portal",User-provided
+UNI004,CSIT Block,Basement,CS Lab 1,Computer Laboratory,Computer science practicals,"cs lab 1, computer lab 1",User-provided
+UNI005,CSIT Block,Basement,CS Lab 2,Computer Laboratory,Computer science practicals,"cs lab 2, computer lab 2",User-provided
+UNI006,CSIT Block,Basement,CS Lab 3,Computer Laboratory,Computer science practicals,"cs lab 3, computer lab 3",User-provided
+UNI007,CSIT Block,Ground Floor,Open Auditorium,Auditorium,Open gathering and student activity area,"auditorium, open auditorium",User-provided
+UNI008,CSIT Block,Ground Floor,Staff Room 1,Staff Room,Faculty workspace,"staff room 1, faculty room",User-provided
+UNI009,CSIT Block,Ground Floor,Staff Room 2,Staff Room,Faculty workspace; opposite Staff Room 1,"staff room 2, faculty room",User-provided
+UNI010,CSIT Block,First Floor,Lab 405,Computer Laboratory,Laboratory; exact use to confirm,"lab 405, 405 lab",User-provided
+UNI011,CSIT Block,First Floor,New Lab 1,Computer Laboratory,New computer laboratory,new lab 1,User-provided
+UNI012,CSIT Block,First Floor,New Lab 2,Computer Laboratory,New computer laboratory,new lab 2,User-provided
+UNI013,CSIT Block,First Floor,CSIT Library,Library,CSIT study and reference resources,"csit library, library",User-provided
+UNI014,CSIT Block,Second Floor,Additional Lab (name unconfirmed),Laboratory,Possible lab; verify exact room,"additional lab, csit lab",Tentative - verify
+UNI015,CSIT Block,Third Floor,Lab 7,Laboratory,Possible lab; verify,lab 7,Tentative - verify
+UNI016,CSIT Block,Third Floor,Lab 8,Laboratory,Possible lab; verify,lab 8,Tentative - verify
+UNI017,Main B.Tech Admin Block,Ground Floor,Admissions Enquiry,Administrative Service,Admission-related enquiries,"admission, admissions, enquiry",User-provided
+UNI018,Main B.Tech Admin Block,Ground Floor,Fee Enquiry,Administrative Service,Fee-related enquiries,"fee, fees, payment",User-provided
+UNI019,Main B.Tech Admin Block,Ground Floor,ID Card Section,Administrative Service,Student ID card requests,"id card, identity card",User-provided
+UNI020,Main B.Tech Admin Block,Ground Floor,Hostel Enquiry,Administrative Service,Hostel information and enquiries,"hostel, accommodation",User-provided
+UNI021,Main B.Tech Admin Block,Ground Floor,General Enquiry,Administrative Service,General student enquiries,"general enquiry, help desk",User-provided
+UNI022,Main B.Tech Admin Block,Ground Floor,LT 12,Lecture Theatre,Lecture sessions,"lt 12, lecture theatre 12",User-provided
+UNI023,Main B.Tech Admin Block,Ground Floor,Washroom,Washroom,Washroom facility,"washroom, restroom, toilet",User-provided
+UNI024,Main B.Tech Admin Block,First Floor,Registrar Office,Administrative Office,Registrar-related work,"registrar, registrar office",User-provided
+UNI025,Main B.Tech Admin Block,First Floor,B.Tech LT 13,Lecture Theatre,B.Tech lecture sessions,"lt 13, btech lt 13",User-provided
+UNI026,Main B.Tech Admin Block,First Floor,Boys' Washroom,Washroom,Washroom facility,"boys washroom, men's washroom",User-provided
+UNI027,Main B.Tech Admin Block,Second Floor,Logic/Electronics Lab A,Electronics Laboratory,Provisional lab entry; exact name to verify,"logic lab, electronics lab",Tentative - verify
+UNI028,Main B.Tech Admin Block,Second Floor,Logic/Electronics Lab B,Electronics Laboratory,Possible additional lab; verify existence/name,"electronics lab, circuit lab",Tentative - verify
+UNI029,Civil Engineering Block,Basement,Civil Engineering Lab,Engineering Laboratory,Civil engineering practicals,"civil lab, civil engineering lab",User-provided
+UNI030,Civil Engineering Block,First Floor,Civil CR 22,Classroom,Provisional classroom entry; floor to be verified,"civil cr 22, civil classroom",Provisional - floor verify
+UNI031,Civil Engineering Block,First Floor,Civil CR 23,Classroom,Provisional classroom entry; floor to be verified,"civil cr 23, civil classroom",Provisional - floor verify
+UNI032,Civil Engineering Block,Second Floor,Civil CR 24,Classroom,Provisional classroom entry; floor to be verified,"civil cr 24, civil classroom",Provisional - floor verify
+UNI033,Civil Engineering Block,Second Floor,Civil CR 25,Classroom,Provisional classroom entry; floor to be verified,"civil cr 25, civil classroom",Provisional - floor verify
+UNI034,Mechanical Workshop,Ground Floor (provisional),Mechanical Lab 1,Engineering Laboratory,Provisional mechanical practical/lab facility; official name and floor to verify,"mechanical lab 1, workshop lab, machine lab",Provisional - verify
+UNI035,Mechanical Workshop,Ground Floor (provisional),Mechanical Lab 2,Engineering Laboratory,Provisional mechanical practical/lab facility; official name and floor to verify,"mechanical lab 2, workshop lab, machine lab",Provisional - verify
+UNI036,Mechanical Workshop,Ground Floor (provisional),Mechanical Lab 3,Engineering Laboratory,Provisional mechanical practical/lab facility; official name and floor to verify,"mechanical lab 3, workshop lab, machine lab",Provisional - verify
+UNI037,Library Block,First Floor,Digital Lab 1,Computer Laboratory,Digital/Data Science lab; official name to verify,"digital lab 1, ds lab 1, data science lab 1, computer lab",User-reported - official name verify
+UNI038,Library Block,First Floor,Digital Lab 2,Computer Laboratory,Digital/Data Science lab; official name to verify,"digital lab 2, ds lab 2, data science lab 2, computer lab",User-reported - official name verify
+UNI039,CSIT Block,Ground Floor,"CR 1, CR 2, CR 3",Classroom,Rooms in this numbered range; select the exact room number when searching.,"cr 1, cr 2, cr 3, classroom, class, room",User-provided
+UNI040,CSIT Block,Ground Floor,"LT 1, LT 2",Lecture Theatre,Rooms in this numbered range; select the exact room number when searching.,"lt 1, lt 2, lecture theatre, class, room",User-provided
+UNI041,CSIT Block,First Floor,"CR 4, CR 5, CR 6",Classroom,Rooms in this numbered range; select the exact room number when searching.,"cr 4, cr 5, cr 6, classroom, class, room",User-provided
+UNI042,CSIT Block,First Floor,"LT 3, LT 4, LT 5",Lecture Theatre,Rooms in this numbered range; select the exact room number when searching.,"lt 3, lt 4, lt 5, lecture theatre, class, room",User-provided
+UNI043,CSIT Block,Second Floor,"CR 7, CR 8, CR 9",Classroom,Rooms in this numbered range; select the exact room number when searching.,"cr 7, cr 8, cr 9, classroom, class, room",User-provided
+UNI044,CSIT Block,Second Floor,"LT 6, LT 7, LT 8",Lecture Theatre,Rooms in this numbered range; select the exact room number when searching.,"lt 6, lt 7, lt 8, lecture theatre, class, room",User-provided
+UNI045,CSIT Block,Third Floor,"CR 10, CR 11, CR 12",Classroom,Rooms in this numbered range; select the exact room number when searching.,"cr 10, cr 11, cr 12, classroom, class, room",User-provided
+UNI046,CSIT Block,Third Floor,"LT 9, LT 10, LT 11",Lecture Theatre,Rooms in this numbered range; select the exact room number when searching.,"lt 9, lt 10, lt 11, lecture theatre, class, room",User-provided
