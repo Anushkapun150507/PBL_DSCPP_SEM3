@@ -1,0 +1,30 @@
+<!-- UNIGO Lost & Found: this feature's part of the web page (from frontend/index.html of the full
+     project, where it is shown after the student logs in). -->
+<!-- PAGE 7: Lost & Found (two tabs: Lost or found -> step-by-step form; My posts. Plus the collection desk for the desk account) -->
+<main class="view page" id="view-lostfound" hidden>
+  <div class="container lf-wrap">
+    <div class="lf-head">
+      <div>
+        <h2 class="greeting">Lost &amp; Found</h2>
+        <p class="muted" id="lfIntro">Lost something on campus, or found something? Post it here. Items are handed back safely at the collection desk.</p>
+      </div>
+      <div class="lf-account" id="lfAccount" hidden>
+        <span class="lf-who" id="lfWho"></span>
+      </div>
+    </div>
+
+    <section id="lfApp">
+      <nav class="lf-tabs" aria-label="Lost &amp; Found">
+        <a href="#/lostfound" data-tab="home">🔎 Lost or found</a>
+        <a href="#/lostfound/mine" data-tab="mine">🗂️ My posts <span class="lf-tab-badge" id="lfMineBadge" hidden></span></a>
+        <a href="#/lostfound/desk" data-tab="desk" id="lfDeskTab" hidden>🛎️ Collection desk</a>
+      </nav>
+      <div id="lfScreen" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <dialog class="lf-dialog" id="lfDialog" aria-labelledby="lfDialogTitle">
+    <div id="lfDialogBody"></div>
+  </dialog>
+</main>
+
