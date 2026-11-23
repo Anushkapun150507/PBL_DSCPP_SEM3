@@ -1,0 +1,14 @@
+{
+  "note": "Lost & Found settings. Copy this file to config.json (same folder), put your own desk password in it, then start the server. config.json is never uploaded to GitHub.",
+  "rollNumberDigits": 7,
+  "postDays": 30,
+  "collectionPoint": {
+    "name": "CSIT Block, First Floor, near LT 1",
+    "placeId": "csit-block"
+  },
+  "demoAdmin": {
+    "note": "The collection-desk login. Change CHANGE-ME to your own password. Delete demoAdmin to have no desk account.",
+    "username": "desk",
+    "password": "CHANGE-ME"
+  }
+}
