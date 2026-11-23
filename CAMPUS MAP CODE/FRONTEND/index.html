@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="UNIGO is a campus guide website that makes college life easier.">
+<title>UNIGO – Campus Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <span class="logo">UNIGO</span>
+  <span class="muted">Campus Map</span>
+</header>
+
+<!-- PAGE 5: Campus Map (choose a tool, then Find a Route or Find a Classroom / Lab) -->
+<main class="view page" id="view-map">
+  <div class="container map-wrap">
+
+    <!-- Step 1: which tool? -->
+    <section id="mapChooser" class="map-chooser" aria-labelledby="chooserTitle">
+      <h2 class="greeting" id="chooserTitle">Campus Map</h2>
+      <p class="muted">What would you like to do?</p>
+      <div class="tool-cards">
+        <a class="tool-card tool-route" href="#/map/route">
+          <span class="tool-icon" aria-hidden="true">🧭</span>
+          <h3>Find a Route</h3>
+          <p>Get directions from one building to another, for example Chanakya Block to Paramedical Block. See the possible routes and pick the one you like.</p>
+          <span class="tool-go">Open Find a Route →</span>
+        </a>
+        <a class="tool-card tool-rooms" href="#/map/rooms">
+          <span class="tool-icon" aria-hidden="true">🔎</span>
+          <h3>Find a Classroom / Lab</h3>
+          <p>Search a classroom, lab, lecture theatre or office, for example CR 1, LT 12, CS Lab 1 or Registrar. See its building and floor, then get directions to it.</p>
+          <span class="tool-go">Open Find a Classroom →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Step 2: the chosen tool -->
+    <section id="mapWork" hidden>
+      <div class="tool-bar">
+        <a href="#/map" class="btn-soft">&lsaquo; Map tools</a>
+        <nav class="tool-tabs" aria-label="Map tools">
+          <a href="#/map/route" id="tabRoute" class="tool-tab">🧭 Find a Route</a>
+          <a href="#/map/rooms" id="tabRooms" class="tool-tab">🔎 Find a Classroom / Lab</a>
+        </nav>
+      </div>
+      <h2 class="greeting" id="toolTitle">Find a Route</h2>
+      <p class="muted" id="toolIntro"></p>
+
+      <!-- Find a Route: start and destination (buildings and places) -->
+      <div class="route-form" id="routeForm">
+        <div class="route-row">
+          <span class="legend-dot start" aria-hidden="true"></span>
+          <div class="search-box mini" id="fromBox">
+            <label for="fromInput" class="sr">Starting point</label>
+            <input id="fromInput" type="text" maxlength="60" placeholder="From: where you are, e.g. Gate No. 2" autocomplete="off"
+                   role="combobox" aria-expanded="false" aria-controls="fromList" aria-autocomplete="list">
+            <button type="button" class="clear" id="fromClear" aria-label="Clear starting point" hidden>&times;</button>
+            <ul class="suggestions" id="fromList" role="listbox" hidden></ul>
+          </div>
+          <button type="button" class="btn-soft" id="pickFrom" aria-pressed="false">Pick on map</button>
+          <button type="button" class="btn-soft" id="gpsBtn">Use my location</button>
+        </div>
+        <div class="route-row">
+          <span class="legend-pin" aria-hidden="true"></span>
+          <div class="search-box mini" id="toBox">
+            <label for="toInput" class="sr">Destination</label>
+            <input id="toInput" type="text" maxlength="60" placeholder="To: a building or place, e.g. Paramedical Block" autocomplete="off"
+                   role="combobox" aria-expanded="false" aria-controls="toList" aria-autocomplete="list">
+            <button type="button" class="clear" id="toClear" aria-label="Clear destination" hidden>&times;</button>
+            <ul class="suggestions" id="toList" role="listbox" hidden></ul>
+          </div>
+          <button type="button" class="btn-soft" id="pickTo" aria-pressed="false">Pick on map</button>
+          <button type="button" class="btn-soft" id="swapBtn" title="Swap start and destination">Swap</button>
+        </div>
+      </div>
+
+      <!-- Find a Classroom / Lab: one search box for rooms -->
+      <div class="search room-form" id="roomForm" role="search" hidden>
+        <div class="search-box" id="roomBox">
+          <label for="roomInput" class="sr">Classroom, lab or facility</label>
+          <input id="roomInput" type="text" maxlength="60" placeholder="Search e.g. CR 1, LT 12, CS Lab 1, Registrar" autocomplete="off"
+                 role="combobox" aria-expanded="false" aria-controls="roomList" aria-autocomplete="list">
+          <button type="button" class="clear" id="roomClear" aria-label="Clear search" hidden>&times;</button>
+          <button type="button" class="btn" id="roomSearchBtn">Search</button>
+          <ul class="suggestions" id="roomList" role="listbox" hidden></ul>
+        </div>
+      </div>
+
+      <p class="field-help" id="mapHelp" role="status"></p>
+
+      <div class="map-layout">
+        <div class="map-frame" id="mapFrame">
+          <svg id="campusSvg" role="img" aria-label="Interactive campus map"></svg>
+          <div class="map-controls">
+            <button type="button" id="zoomIn" aria-label="Zoom in">+</button>
+            <button type="button" id="zoomOut" aria-label="Zoom out">&minus;</button>
+            <button type="button" id="zoomReset" aria-label="Reset map view">&#x21BA;</button>
+          </div>
+          <div class="map-status" id="mapStatus"><div class="spinner" aria-hidden="true"></div><span>Loading campus map&hellip;</span></div>
+        </div>
+        <aside class="map-panel" id="mapPanel" aria-live="polite"></aside>
+      </div>
+      <p class="fine" id="mapNote">Schematic campus layout, not to scale. Positions are approximate.</p>
+    </section>
+  </div>
+</main>
+
+
+<script src="js/search-box.js"></script>
+<script src="js/campus-map.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
